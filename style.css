@@ -1,0 +1,50 @@
+body {
+    background-image: repeating-linear-gradient(rgb(14, 13, 13),rgb(49, 48, 48));
+    background-attachment: fixed;
+}
+
+.container1 { 
+    height: 10em;
+    position: relative;
+}
+
+.container1 .header {
+    font-family: sans-serif, serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    
+
+}
+
+.container2 {
+    text-align: center;
+    color: white;
+}
+
+
+.button,
+.button2 {
+    text-align: center;
+      
+
+}
+
+.GitHub,
+.LinkedIn{
+    cursor: pointer;
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: black;
+    background-image: -webkit-linear-gradient(top, white, gray);
+   
+}
+
+.GitHub:hover,
+.LinkedIn:hover {
+    background-image: -webkit-linear-gradient(top, rgb(125, 123, 123), #3498db);
+
+}
