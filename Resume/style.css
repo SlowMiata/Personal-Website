@@ -1,0 +1,83 @@
+body {
+    height:297mm;
+    width:210mm;
+    /* to centre page on screen*/
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.name{
+    font-size: 20px;
+}
+
+.contact-info{
+    font-size: 15px;
+
+}
+
+
+.container2 hr,
+.container3 hr,
+.container4 hr
+{
+    margin-top: -10px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-bottom: 10px black;
+
+    
+}
+
+.header{
+    font-size: 18px;
+}
+
+.info{
+    margin-top: -10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.info .location,
+.info .date{
+    float: right;
+    font-weight: normal;
+    
+    
+
+}
+
+.info .span-info {
+    font-weight: normal;
+}
+
+.title{
+    font-weight: normal;
+    font-style: italic;
+}
+
+.job-desc{
+    text-align: left;
+    font-size: 15px;
+    margin-top: -10px;
+    
+}
+
+.container1 h1{
+    margin-bottom: -10px;
+}
