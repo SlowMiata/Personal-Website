@@ -1,5 +1,70 @@
-.nav{
+body{
+    min-width: 100vh;
+    min-height: 100vh;
+    font-family: serif;
+    background-color: black;
+    background-color: white;
+    margin:0;
+}
+.header{
     display: flex;
-    justify-content: end
+    justify-content: space-between;
+    background-color: rgb(72, 69, 69);
+    color: white;
+    align-items: center;
+    margin: 0;
+    border-style: none;
+}
+
+.header .name{
+    font-size: 48px;
+    margin-left:50px;
+}
+
+.header .nav-bar{
+    display:flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.nav-bar button{
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+    height: 25px;
+    background-color: rgb(232, 222, 222);
+    color: white;
+}
+
+.biography{
+    display: flex;
+    background-color: gray;
+    justify-content: space-evenly;
+}
+
+.biography .bio-text{
+    display:flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.biography .bio-picture{
+    display: flex;
+    height: 300px;
+    width: 400px;
+}
+
+.bio-picture{
+    object-fit: fill;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
     
 }
+
+
