@@ -1,11 +1,15 @@
 body{
     min-width: 100vh;
-    min-height: 100vh;
+    height: 100%;
     font-family: serif;
     background-color: black;
     background-color: white;
     margin:0;
+    display: flex;
+    flex-direction: column;
 }
+
+/* Header */
 .header{
     display: flex;
     justify-content: space-between;
@@ -19,6 +23,10 @@ body{
 .header .name{
     font-size: 48px;
     margin-left:50px;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff;
 }
 
 .header .nav-bar{
@@ -33,15 +41,49 @@ body{
     border-radius: 8px;
     border-style: none;
     cursor: pointer;
-    height: 25px;
-    background-color: rgb(232, 222, 222);
+    height: 30px;
+    background-color: rgb(72, 69, 69);
     color: white;
+    font-size: 25px;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff;
 }
 
+
+/* img1 */
+.img1{
+    display: flex;
+    /* https://www.uhdpaper.com/2022/04/night-city-cityscape-building-4k-9300f.html?m=0 */
+    background-image: url(images/night-city-cityscape-building-scenery-digital-art-4k-wallpaper-uhdpaper.com-930@0@f.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 h1{
+    color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(122, 128, 126);
+}
+
+/* Biography section */
 .biography{
     display: flex;
-    background-color: gray;
+    background-color: rgb(79, 77, 77);
     justify-content: space-evenly;
+    flex-shrink: 1;
 }
 
 .biography .bio-text{
@@ -53,9 +95,17 @@ body{
     justify-content: center;
 }
 
+.bio-text h1{
+    font-size: 46px;
+}
+
+.bio-text p{
+    font-size: 20px;
+}
+
 .biography .bio-picture{
     display: flex;
-    height: 300px;
+    height: 400px;
     width: 400px;
 }
 
@@ -66,5 +116,12 @@ body{
     margin-right: 40px;
     
 }
+
+.bio-picture img{
+    border-radius: 50%;
+}
+
+
+
 
 
