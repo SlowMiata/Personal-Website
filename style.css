@@ -20,13 +20,28 @@ body{
     border-style: none;
 }
 
+
 .header .name{
+    display: flex;
+    margin: 0;
+    margin-left: 50px;
+    gap:15px;
+    padding-top: 5px;
+}
+.header .name h1{
+
     font-size: 48px;
-    margin-left:50px;
     color: #fff;
     text-shadow:
         0 0 7px #fff,
         0 0 10px #fff;
+    padding: 0;
+    margin: 0;
+
+}
+.name img{
+    height: 50px;
+    border-radius: 30px;
 }
 
 .header .nav-bar{
@@ -84,6 +99,8 @@ body{
     background-color: rgb(79, 77, 77);
     justify-content: space-evenly;
     flex-shrink: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .biography .bio-text{
@@ -95,31 +112,42 @@ body{
     justify-content: center;
 }
 
-.bio-text h1{
+.bio-text h1, .skills h1{
     font-size: 46px;
+    text-shadow:
+    0 0 7px #ffffff5b,
+    0 0 10px #ffffff00;
 }
 
 .bio-text p{
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.biography .bio-picture{
+.bio-text .skills{
     display: flex;
-    height: 400px;
-    width: 400px;
+    flex-wrap: wrap;
 }
 
-.bio-picture{
-    object-fit: fill;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 40px;
-    
+.skill-containers{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
 }
 
-.bio-picture img{
-    border-radius: 50%;
+.skill-containers div{
+
+    padding: 16px 32px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    background: rgba(153,153,153,.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
 }
+
+/* Porjects */
+
 
 
 
