@@ -5,11 +5,12 @@ body{
     background-color: black;
     background-color: white;
     margin:0;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 /* Header */
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -82,9 +83,10 @@ body{
     font-size: 60px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.img1 h1{
+.img1 h1, .projects h1{
     color: #fff;
   text-shadow:
     0 0 7px #fff,
@@ -147,6 +149,67 @@ body{
 }
 
 /* Porjects */
+/* https://giphy.com/gifs/spcity-i4jKn7itdV2Tvjzj6Y */
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    /* https://www.uhdpaper.com/2022/04/night-city-cityscape-building-4k-9300f.html?m=0 */
+    /* background-image: url(images/gif.gif); */
+    background-image: url(images/night-city-cityscape-building-scenery-digital-art-4k-wallpaper-uhdpaper.com-930@0@f.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+.pong2, .shell{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.pong2 img, .shell img{
+    height:500px;
+    width: 700px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    margin-right: 80px;
+    box-shadow: 0 0 50px 15px #9ecce5;
+}
+
+.pong2 p, .shell p{
+    font-size: 20px;
+    margin-top: 0;
+}
+.project-info h2{
+    margin-bottom: 10px;
+    text-shadow:
+    0 0 10px #ffffff5b,
+    0 0 20px #ffffff5b,
+    0 0 30px #000000b0;
+
+}
+
+.project-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    padding: 20px;
+    width: 500px;
+}
+
 
 
 
