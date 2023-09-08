@@ -14,10 +14,9 @@
             <h1>Tu Ha</h1>
         </div>
         <div class="nav-bar">
-            <button>Home</button>
-            <button>Projects</button>
-            <button>Links</button>
-            <button>Contact</button>
+            <a href="#anchor-bio"><button>Introduction</button></a>
+            <a href="#anchor-project"><button>Projects</button></a>
+            <a href="#anchor-project"><button>Links</button></a>
         </div>
     </div>
 
@@ -25,13 +24,13 @@
         <h1>Personal Website</h1>
     </div>
     
-    <div class="biography">
+    <div id="anchor-bio" class="biography">
         <div class="bio-text">
             <h1>Introduction</h1>
             <p>
                 Hi, this is my personal website. 
                 The objective of this personal portfolio website is to highlight my professional skills and experience.
-                This is an ongoing project where I aim to continuously expand my website development abilities through active learning and skills enhancement.
+                This is also an ongoing project where I aim to continuously expand my website development abilities through active learning and skills enhancement.
             </p>
         </div>
         <div class="skills">
@@ -48,34 +47,50 @@
 
         </div>
     </div>
-    <div class="projects">
+    <div id="anchor-project" class="projects">
         <h1>My Projects</h1>
         <div class="pong2">
             <!-- link to github, youtube video 
-            include a screenshot + short desc-->
+            include a screenshot + short desc -->
             <img src="images/Pong2.png" alt="">
             <div class="project-info">
                 <h2>Pong 2</h2>
-                <p>added new features to the classic game Pong, 
+                <p>Added new features to the classic game Pong, 
                     like dynamic paddle sizes, ball 
-                    speed and direction and more</p>
+                    speed and direction and more
+                </p>
             </div>
         </div>
         <div class="shell">
             <img src="images/Shell Lab.png" alt="">
             <div class="project-info">
                 <h2>Mini Linux Shell</h2>
-                <p>Replicated built-in commands from linux terminal
+                <p>Programmed a scaled-down version of a Linux terminal, 
+                    implementing basic command line operations and utilities
                 </p>
             </div>
 
         </div>
         <div class="phillyNow">
-
+            <img src="images/Phillynow.png" alt="">
+            <div class="project-info">
+                <h2>PhillyNow</h2>
+                <p>An interactive website that visually displays crime data and statistics on dynamic maps, 
+                    providing insights into crime trends and patterns in different areas
+                </p>
+            </div>
         </div>
     </div>
 
-    
+    <div class="contacts">
+        <div class="contact-box"> 
+            <h3>GitHub</h3>
+            <a href="https://github.com/SlowMiata" target="_blank">
+                <img src="images/GitHub-Mark.png" alt="">
+            </a>
+        </div>
+
+    </div>
 
 </body>
 </html>

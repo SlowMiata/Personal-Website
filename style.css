@@ -1,9 +1,11 @@
+html{
+    background-color: black;
+}
 body{
     min-width: 100vh;
     height: 100%;
     font-family: serif;
     background-color: black;
-    background-color: white;
     margin:0;
     /* display: flex;
     flex-direction: column; */
@@ -88,11 +90,11 @@ body{
 
 .img1 h1, .projects h1{
     color: #fff;
-  text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px rgb(122, 128, 126);
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(122, 128, 126);
 }
 
 /* Biography section */
@@ -117,8 +119,8 @@ body{
 .bio-text h1, .skills h1{
     font-size: 46px;
     text-shadow:
-    0 0 7px #ffffff5b,
-    0 0 10px #ffffff00;
+        0 0 7px #ffffff5b,
+        0 0 10px #ffffff00;
 }
 
 .bio-text p{
@@ -148,7 +150,7 @@ body{
     color: white;
 }
 
-/* Porjects */
+/* Projects */
 /* https://giphy.com/gifs/spcity-i4jKn7itdV2Tvjzj6Y */
 
 .projects{
@@ -167,16 +169,18 @@ body{
     font-size: 40px;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 
 }
-.pong2, .shell{
+.pong2, .shell, .phillyNow{
     display: flex;
     align-items: center;
     gap: 30px;
     margin-bottom: 20px;
+
 }
 
-.pong2 img, .shell img{
+.pong2 img, .shell img, .phillyNow img{
     height:500px;
     width: 700px;
     border-radius: 20px;
@@ -187,16 +191,16 @@ body{
     box-shadow: 0 0 50px 15px #9ecce5;
 }
 
-.pong2 p, .shell p{
+.pong2 p, .shell p, .phillyNow p{
     font-size: 20px;
     margin-top: 0;
 }
 .project-info h2{
     margin-bottom: 10px;
     text-shadow:
-    0 0 10px #ffffff5b,
-    0 0 20px #ffffff5b,
-    0 0 30px #000000b0;
+        0 0 10px #ffffff5b,
+        0 0 20px #ffffff5b,
+        0 0 30px #000000b0;
 
 }
 
@@ -208,9 +212,25 @@ body{
     border-style: solid;
     padding: 20px;
     width: 500px;
+    background-color:rgb(72, 69, 69);
+    height: 200px;
 }
 
 
+.contacts{
+    display:flex;
+
+}
+
+
+.contacts .contact-box{
+    color:white;
+}
+
+.contact-box img{
+    height: 50px;
+    width: 50px;
+}
 
 
 
