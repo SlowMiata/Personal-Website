@@ -212,24 +212,38 @@ body{
     border-style: solid;
     padding: 20px;
     width: 500px;
-    background-color:rgb(72, 69, 69);
+    background-color:rgb(122, 128, 126);
     height: 200px;
 }
 
 
 .contacts{
     display:flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
 
 }
 
 
 .contacts .contact-box{
     color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .contact-box img{
     height: 50px;
     width: 50px;
+    
+}
+
+.contact-box .img:hover{
+    cursor: pointer;
+
 }
 
 
