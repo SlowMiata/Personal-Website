@@ -1,3 +1,3 @@
 # Personal-Website
-Weclome to my website.
-This is an ongoing project as I continue to learn more about web development.
+Welcome to my web development journey!
+As I continuously expand my knowledge and expertise, this website serves as a reflection of my ongoing personal project.

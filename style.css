@@ -169,7 +169,7 @@ body{
     font-size: 40px;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 
 }
 .pong2, .shell, .phillyNow{
@@ -186,7 +186,7 @@ body{
     border-radius: 20px;
     border-style: solid;
     border-color: white;
-    border-width: 10px;
+    border-width: 2px;
     margin-right: 80px;
     box-shadow: 0 0 50px 15px #9ecce5;
 }
@@ -216,7 +216,7 @@ body{
     height: 200px;
 }
 
-
+/* Contacts div */
 .contacts{
     display:flex;
     justify-content: center;
