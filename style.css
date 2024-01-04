@@ -54,6 +54,10 @@ body{
     justify-content: center;
     margin-right: 50px;
 }
+.skills h1{
+    text-align: center;
+}
+
 
 .nav-bar button{
     border-radius: 8px;
@@ -172,15 +176,16 @@ body{
     padding-bottom: 80px;
 
 }
-.pong2, .shell, .phillyNow{
+.pong2, .shell, .phillyNow, .XML, .PurrfectPets{
     display: flex;
     align-items: center;
     gap: 30px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 
 }
 
-.pong2 img, .shell img, .phillyNow img{
+.pong2 img, .shell img, .phillyNow img, .XML img, .PurrfectPets img{
     height:500px;
     width: 700px;
     border-radius: 20px;
@@ -191,7 +196,7 @@ body{
     box-shadow: 0 0 50px 15px #9ecce5;
 }
 
-.pong2 p, .shell p, .phillyNow p{
+.pong2 p, .shell p, .phillyNow p, .XML p, .PurrfectPets p{
     font-size: 20px;
     margin-top: 0;
 }
@@ -207,13 +212,16 @@ body{
 .project-info{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     border-style: solid;
     padding: 20px;
     width: 500px;
     background-color:rgb(122, 128, 126);
     height: 200px;
+}
+.project-info h2{
+    margin-top: 0;
 }
 
 /* Contacts div */
