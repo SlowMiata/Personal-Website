@@ -176,7 +176,7 @@ body{
     padding-bottom: 80px;
 
 }
-.pong2, .shell, .phillyNow, .XML, .PurrfectPets{
+.pong2, .shell, .phillyNow, .XML, .PurrfectPets, .jsProjects{
     display: flex;
     align-items: center;
     gap: 30px;
@@ -185,7 +185,7 @@ body{
 
 }
 
-.pong2 img, .shell img, .phillyNow img, .XML img, .PurrfectPets img{
+.pong2 img, .shell img, .phillyNow img, .XML img, .PurrfectPets img,  .jsProjects img{
     height:500px;
     width: 700px;
     border-radius: 20px;
@@ -196,7 +196,7 @@ body{
     box-shadow: 0 0 50px 15px #9ecce5;
 }
 
-.pong2 p, .shell p, .phillyNow p, .XML p, .PurrfectPets p{
+.pong2 p, .shell p, .phillyNow p, .XML p, .PurrfectPets p, .jsProjects p{
     font-size: 20px;
     margin-top: 0;
 }
