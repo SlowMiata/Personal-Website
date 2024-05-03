@@ -2,13 +2,12 @@ html{
     background-color: black;
 }
 body{
-    min-width: 100vh;
-    height: 100%;
+    min-width: 100vw;
+    height: 100vh;
     font-family: serif;
     background-color: black;
     margin:0;
-    /* display: flex;
-    flex-direction: column; */
+ 
 }
 
 /* Header */
@@ -21,6 +20,11 @@ body{
     align-items: center;
     margin: 0;
     border-style: none;
+    position: fixed; /* Add this line */
+    width: 100%; /* Add this line */
+    top: 0; /* Add this line */
+    z-index: 1; /* Add this line */
+    
 }
 
 
@@ -76,6 +80,7 @@ body{
 /* img1 */
 .img1{
     display: flex;
+    flex-direction: column;
     /* https://www.uhdpaper.com/2022/04/night-city-cityscape-building-4k-9300f.html?m=0 */
     background-image: url(images/night-city-cityscape-building-scenery-digital-art-4k-wallpaper-uhdpaper.com-930@0@f.jpg);
     height: 80vh;
@@ -90,6 +95,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 60px; /* Adjust this value to the height of your header */
 }
 
 .img1 h1, .projects h1{
@@ -177,7 +183,7 @@ body{
     padding-bottom: 80px;
 
 }
-.pong2, .shell, .phillyNow, .XML, .PurrfectPets, .jsProjects{
+.project{
     display: flex;
     align-items: center;
     gap: 30px;
@@ -186,9 +192,9 @@ body{
 
 }
 
-.pong2 img, .shell img, .phillyNow img, .XML img, .PurrfectPets img,  .jsProjects img{
-    height:500px;
-    width: 700px;
+.project img{
+    height: 50vh;
+    width: 40vw;
     border-radius: 20px;
     border-style: solid;
     border-color: white;
@@ -197,7 +203,7 @@ body{
     box-shadow: 0 0 50px 15px #9ecce5;
 }
 
-.pong2 p, .shell p, .phillyNow p, .XML p, .PurrfectPets p, .jsProjects p{
+.projects p{
     font-size: 20px;
     margin-top: 0;
 }
@@ -217,9 +223,9 @@ body{
     align-items: center;
     border-style: solid;
     padding: 20px;
-    width: 500px;
+    width: 30vw;
     background-color:rgb(122, 128, 126);
-    height: 200px;
+    height: 30vh;
 }
 .project-info h2{
     margin-top: 0;
@@ -231,7 +237,12 @@ body{
     justify-content: center;
     gap: 50px;
     padding: 50px;
-
+    background-image: url(images/night-city-cityscape-building-scenery-digital-art-4k-wallpaper-uhdpaper.com-930@0@f.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 
